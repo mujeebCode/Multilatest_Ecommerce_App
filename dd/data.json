@@ -1,0 +1,61 @@
+{
+    "products":[
+        {
+            "id": 1,
+            "image" : "https://res.cloudinary.com/dhbabz846/image/upload/v1736282542/men_watch_qruse5.png",
+            "title" : "Men Watch",
+            "original_price" : "55.00",
+            "price" : "33.00"
+        },
+        {
+            "id": 2,
+            "image": "https://res.cloudinary.com/dhbabz846/image/upload/v1736282533/laptop_bag_q4xmdt.png",
+            "title": "Laptop Bag",
+            "original_price" : "65.00",
+            "price": 39.99
+        },
+        {
+            "id": 3,
+            "image": "https://res.cloudinary.com/dhbabz846/image/upload/v1736282520/Black_Purse_mpkjcj.png",
+            "title": "Black Purse",
+            "original_price" : "44.00",
+            "price": 29.99
+        },
+        {
+            "id": 4,
+            "image": "https://res.cloudinary.com/dhbabz846/image/upload/v1736282520/ring_abdvhd.png",
+            "title": "Gold Ring",
+            "original_price" : "$55.00",
+            "price": 99.99
+        },
+        {
+            "id": 5,
+            "image": "https://res.cloudinary.com/dhbabz846/image/upload/v1736282522/back_watch_aa09cm.png",
+            "title": "Black Watch",
+            "original_price" : "$55.00",
+            "price": 59.99
+        },
+        {
+            "id": 6,
+            "image": "https://res.cloudinary.com/dlc5c1ycl/image/upload/v1710567613/cwlk21f74nd9iamrlzkh.png",
+            "title": "Shirts With Jacket",
+            "original_price" : "$55.00",
+            "price": 149.99
+        },
+        {
+            "id": 7,
+            "image": "https://res.cloudinary.com/dlc5c1ycl/image/upload/v1710567613/cwlk21f74nd9iamrlzkh.png",
+            "title": "Leather Jacket",
+            "original_price" : "$55.00",
+            "price": 79.99
+        },
+        {
+            "id": 8,
+            "image": "https://res.cloudinary.com/dlc5c1ycl/image/upload/v1710567612/qichw3wrcioebkvzudib.png",
+            "title": "Blue Jeans",
+            "original_price" : "$55.00",
+            "price": 49.99
+        }
+    ]
+}
+
