@@ -5,7 +5,7 @@ import LinearGradient from 'react-native-linear-gradient';
 import Category from '../Components/Category';
 import Products from '../Components/Products';
 import Icon2 from "react-native-vector-icons/Feather"
-import data from "../dd/data.json"
+import data from "../data/data.json"
 
 const categories = ["Trending", "All", "New", "Men", "Women"]
 const HomeScreen = () => {

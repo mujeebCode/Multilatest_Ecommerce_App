@@ -1,11 +1,12 @@
 import { StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native'
-import React, { useState } from 'react'
+import React, { act, useState } from 'react'
 import Header from '../Components/Header'
 import LinearGradient from 'react-native-linear-gradient'
 import { AirbnbRating, Rating } from 'react-native-ratings'
 import { useRoute } from '@react-navigation/native'
 import { useDispatch } from 'react-redux'
-import addTOCart from '../redux/actions'
+import actions from '../redux/actions'
+const {addTOCart} = actions;
 
 const colorsArray = [
   "#333333",

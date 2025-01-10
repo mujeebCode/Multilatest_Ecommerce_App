@@ -1,4 +1,4 @@
-import { ADD_TO_WISHLIST } from "./constants";
+import { ADD_TO_WISHLIST, REMOVE_FROM_WISHLIST } from "./constants";
 
 const intialStage = [];
 
@@ -9,6 +9,9 @@ const wishListReducer = (state = intialStage, action) => {
                 ...state,
                 action.data
             ];
+        case REMOVE_FROM_WISHLIST:
+            let result = state.filter(item =>item.id!=action.data)
+            return [...result]
         default:
             return state
     }

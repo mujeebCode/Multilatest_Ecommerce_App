@@ -18,7 +18,8 @@ const Favourites = () => {
 
          {/* Header */}
             <Header isCart={true} favourite={true}/>
-            <FlatList data={wishListData} renderItem={({item}) => <CartCard item={item}/>} />
+
+            <FlatList data={wishListData} renderItem={({item}) => <CartCard item={item} wishListDelelte={true}/>} />
         </LinearGradient>
     )
 }

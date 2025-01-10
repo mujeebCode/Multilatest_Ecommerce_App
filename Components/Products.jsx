@@ -3,8 +3,9 @@ import React from 'react'
 import AntDesign from "react-native-vector-icons/AntDesign"
 import { useNavigation, useRoute } from '@react-navigation/native';
 import { useDispatch } from 'react-redux';
-import addTOWishList from '../redux/actionWish';
 import { useState } from 'react';
+import actions from "../redux/actions"
+const {addTOWishList} = actions;
 
 const Products = ({ item }) => {
   const navigation = useNavigation();
